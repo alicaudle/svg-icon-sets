@@ -14,10 +14,24 @@ i {
 .btn {
   color: #fff;
   border-color: #fff;
+  border: 2px solid #fff;
 }
 
 .btn:hover {
   color: #ff5e3a;
   border-color: #fff;
   background-color: #fff;
+}
+
+div:first-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+
+  div:first-child {
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 1);
+  }
+
 }
